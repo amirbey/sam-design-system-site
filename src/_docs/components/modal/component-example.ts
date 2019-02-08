@@ -52,7 +52,7 @@ export class SamModalComponentExampleComponent {
   modalConfig2 = {
     type: 'success',
     title: 'Sample Title',
-    description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum.'
+    description: ' Test shilpa esse ratione quis quasi commodi distinctio sit aut eum facilis minima hic saepe ut ex, aliquid minus non maxime quod!';
   };
 
   onModalInitClick() {
