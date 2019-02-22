@@ -63,6 +63,7 @@ import { SamListboxComponentExampleComponent } from './experimental/listbox/comp
 import { SamMasterPageComponentExampleComponent } from './experimental/master-page/component-example';
 import { SamPageSampleComponentExampleComponent } from './experimental/page/component-example';
 import { ProgressComponentExampleComponent } from './experimental/progress/component-example';
+import { SamQueryBuilderExampleComponent } from './experimental/query-builder/component-example';
 import { SamResourcesWrapperComponentExampleComponent } from './experimental/resources-wrapper/component-example';
 import { SamSearchComponentExampleComponent } from './experimental/search/component-example';
 import { SamSideNavigationToolbarComponentExampleComponent } from './experimental/sideNavigationToolbar/component-example';
@@ -106,6 +107,7 @@ import { SiteComponentsModule } from '../app/site-components/sitecomponents.modu
 import { CdkTableModule } from '@angular/cdk';
 import { FormlyModule } from '@ngx-formly/core';
 import { HierarchicalDataService } from './services/hierarchical.service';
+import { QueryBuilderModule } from 'angular2-query-builder';
 
 /**
  * AppModule` is the main entry point into Angular2's bootstraping process
@@ -162,6 +164,7 @@ import { HierarchicalDataService } from './services/hierarchical.service';
     SamMasterPageComponentExampleComponent,
     SamPageSampleComponentExampleComponent,
     ProgressComponentExampleComponent,
+    SamQueryBuilderExampleComponent,
     SamResourcesWrapperComponentExampleComponent,
     SamSearchComponentExampleComponent,
     SamSideNavigationToolbarComponentExampleComponent,
@@ -252,6 +255,7 @@ import { HierarchicalDataService } from './services/hierarchical.service';
     SamMasterPageComponentExampleComponent,
     SamPageSampleComponentExampleComponent,
     ProgressComponentExampleComponent,
+    SamQueryBuilderExampleComponent,
     SamResourcesWrapperComponentExampleComponent,
     SamSearchComponentExampleComponent,
     SamSideNavigationToolbarComponentExampleComponent,
@@ -298,6 +302,7 @@ import { HierarchicalDataService } from './services/hierarchical.service';
 		SamUIKitModule,
 		SamFilterModule,
 		FormlyModule,
+		QueryBuilderModule,
     routing,
 		SiteComponentsModule,
 		CdkTableModule

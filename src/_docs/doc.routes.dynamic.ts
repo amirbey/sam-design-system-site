@@ -56,6 +56,7 @@ import { SamListboxComponentExampleComponent } from './experimental/listbox/comp
 import { SamMasterPageComponentExampleComponent } from './experimental/master-page/component-example';
 import { SamPageSampleComponentExampleComponent } from './experimental/page/component-example';
 import { ProgressComponentExampleComponent } from './experimental/progress/component-example';
+import { SamQueryBuilderExampleComponent } from './experimental/query-builder/component-example';
 import { SamResourcesWrapperComponentExampleComponent } from './experimental/resources-wrapper/component-example';
 import { SamSearchComponentExampleComponent } from './experimental/search/component-example';
 import { SamSideNavigationToolbarComponentExampleComponent } from './experimental/sideNavigationToolbar/component-example';
@@ -333,6 +334,12 @@ export const ROUTES: Routes = [
     componentName: 'ProgressComponent',
 			sections: ['component-example.ts','documentation.md']}, children: [
     { path: '', component: ProgressComponentExampleComponent }
+  ]},
+  { path: 'experimental/query-builder', component: BaseDocPageComponent, data: {
+    path: '_docs/experimental/query-builder',
+    componentName: 'SamQueryBuilder',
+			sections: ['component-example.html','component-example.ts','documentation.md']}, children: [
+    { path: '', component: SamQueryBuilderExampleComponent }
   ]},
   { path: 'experimental/resources-wrapper', component: BaseDocPageComponent, data: {
     path: '_docs/experimental/resources-wrapper',

@@ -1,0 +1,25 @@
+<h2>Vanilla</h2>
+<br>
+<query-builder [formControl]='queryCtrl' [config]='currentConfig'>
+  <ng-container *queryInput="let rule; type: 'textarea'; let getDisabledState=getDisabledState">
+    <textarea class="text-input text-area" [(ngModel)]="rule.value" [disabled]=getDisabledState() placeholder="Custom Textarea"></textarea>
+  </ng-container>
+</query-builder>
+<br>
+<div>
+  <div>
+    <p>Control Valid (Vanilla): {{ queryCtrl.valid }}</p>
+    <div>
+        <input type="checkbox" id="selectId" (change)="switchModes($event)" name="select">
+        <label for="selectId">Entity Mode</label>
+    </div>
+  </div>
+  <div>
+    <p>Control Touched (Vanilla): {{ queryCtrl.touched }}</p>
+    <div>
+     <input type="checkbox" id="disableId" (change)=changeDisabled($event)>
+     <label for="disableId">Disabled</label>
+    </div>
+  </div>
+  <textarea class="output">{{query | json}}</textarea>
+</div>

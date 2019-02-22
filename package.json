@@ -46,6 +46,7 @@
     "@gsa-sam/sam-ui-elements": "0.8.2",
     "@ngx-formly/core": "^2.1.1",
     "accessible-html5-video-player": "^1.0.3",
+    "angular2-query-builder": "^0.4.0",
     "classlist-polyfill": "1.0.3",
     "core-js": "^2.4.1",
     "font-awesome": "4.7.0",
@@ -67,7 +68,7 @@
     "@types/jasmine": "2.5.54",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "6.0.38"
-  },
+    },
   "devDependencies": {
     "codelyzer": "~3.2.0",
     "jasmine-core": "~2.5.2",
