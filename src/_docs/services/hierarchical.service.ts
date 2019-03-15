@@ -1,7 +1,7 @@
 /* tslint:disable */
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { SamHiercarchicalServiceInterface,SamHiercarchicalServiceSearchItem, SamHiercarchicalServiceResult } from '@gsa-sam/sam-ui-elements/src/ui-kit/experimental/hierarchical/hierarchical-interface';
+import { SamHiercarchicalServiceInterface,SamHiercarchicalServiceSearchItem, SamHiercarchicalServiceResult } from '@gsa-sam/sam-ui-elements/src/ui-kit/hierarchical/hierarchical-interface';
 import { Sort } from '@gsa-sam/sam-ui-elements/src/ui-kit/components/data-table/sort.directive'
 
 import { SampleHierarchicalData } from './hierarchical.data';
@@ -18,6 +18,10 @@ export class HierarchicalDataService implements SamHiercarchicalServiceInterface
             let item = data[i];
             let results = data.filter(it => it.parentId === item.id);
             item['childCount'] = results.length;
+
+            // if(results.length===0){
+            //     item['childCount'] = 27;
+            // }
         }
         this.loadedData = data;
     }

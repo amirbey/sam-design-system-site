@@ -38,10 +38,10 @@ import {
 } from './database';
 import {
   HierarchicalTreeSelectedItemModel,
-   TreeMode } from '@gsa-sam/sam-ui-elements/src/ui-kit/experimental/hierarchical/hierarchical-tree-selectedItem.model';
+   TreeMode } from '@gsa-sam/sam-ui-elements/src/ui-kit/hierarchical/hierarchical-tree-selectedItem.model';
 import {
    SelectedResultConfiguration
-  } from '@gsa-sam/sam-ui-elements/src/ui-kit/experimental/hierarchical/models/SamHierarchicalSelectedResultConfiguration';
+  } from '@gsa-sam/sam-ui-elements/src/ui-kit/hierarchical/models/SamHierarchicalSelectedResultConfiguration';
 import { stringify } from '@angular/core/src/render3/util';
 
 @Component({
