@@ -65,7 +65,16 @@ export const environment: EnvironmentVariables = {
   ENV: '${config.ENV}',
   DEPLOYURL: '${config.DEPLOYURL}',
   API_UMBRELLA_URL: '$API_UMBRELLA_URL',
-  production: ${config.ENV === 'prod' ? true : false}
+  production: ${config.ENV === 'prod' ? true : false},
+  NODE_ENV: 'production'
+  APP_ENV: 'production'
+  APP_HOSTNAME: 'https://designsystem.sam.gov/',
+  HOMEPAGE_URL: 'https://designsystem.sam.gov/',
+  LOG_LEVEL: 'info',
+  NPM_CONFIG_PRODUCTION: true,
+  NODE_MODULES_CACHE: false,
+  FEDERALIST_PREVIEW_HOSTNAME: 'https://designsystem.sam.gov/',
+  SOCKET_HOST: 'https://designsystem.sam.gov/'
 }\n`
 
 }
