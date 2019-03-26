@@ -65,10 +65,7 @@ export const environment: EnvironmentVariables = {
   ENV: '${config.ENV}',
   DEPLOYURL: '${config.DEPLOYURL}',
   API_UMBRELLA_URL: '$API_UMBRELLA_URL',
-  production: ${config.ENV === 'prod' ? true : false},
-  APP_DOMAIN:'https://designsystem.sam.gov/',
-  NODE_MODULES_CACHE: true,
-  NPM_CONFIG_PRODUCTION: true
+  production: ${config.ENV === 'prod' ? true : false}
 }\n`
 
 }
