@@ -8,7 +8,7 @@ export interface EnvironmentVariables {
   production?: boolean,
   NODE_ENV:string,
   APP_ENV: string,
-  APP_HOSTNAME: string,
+  APP_DOMAIN: string,
   HOMEPAGE_URL: string,
   LOG_LEVEL: string,
   NPM_CONFIG_PRODUCTION: boolean,

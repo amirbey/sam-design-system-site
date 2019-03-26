@@ -68,7 +68,7 @@ export const environment: EnvironmentVariables = {
   production: ${config.ENV === 'prod' ? true : false},
   NODE_ENV: 'production',
   APP_ENV: 'production',
-  APP_HOSTNAME: 'https://designsystem.sam.gov/',
+  APP_DOMAIN: 'https://designsystem.sam.gov/',
   HOMEPAGE_URL: 'https://designsystem.sam.gov/',
   LOG_LEVEL: 'info',
   NPM_CONFIG_PRODUCTION: true,
