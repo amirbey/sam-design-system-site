@@ -5,5 +5,6 @@ export interface EnvironmentVariables {
   DOCS?: any,
   DEPLOYURL?: any,
   API_UMBRELLA_URL?: string,
-  production?: boolean
+  production?: boolean,
+  URL?: any
 }
