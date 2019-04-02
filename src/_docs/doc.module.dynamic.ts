@@ -57,6 +57,7 @@ import { SamHierarchicalTreeComponentExampleComponent } from './experimental/hie
 import { SamHierarchicalTreeGridComponentExampleComponent } from './experimental/hierarchical-tree-grid/component-example';
 import { SamIconComponentExampleComponent } from './experimental/icon/component-example';
 import { SamInputMaskComponentExampleComponent } from './experimental/input-mask/component-example';
+import { SamIpValidatorComponentExampleComponent } from './experimental/ip-validator/component-example';
 import { SamLabelNextComponentExampleComponent } from './experimental/label/component-example';
 import { SamListComponentExampleComponent } from './experimental/list/component-example';
 import { SamListboxComponentExampleComponent } from './experimental/listbox/component-example';
@@ -65,8 +66,8 @@ import { SamPageSampleComponentExampleComponent } from './experimental/page/comp
 import { ProgressComponentExampleComponent } from './experimental/progress/component-example';
 import { SamResourcesWrapperComponentExampleComponent } from './experimental/resources-wrapper/component-example';
 import { SamSearchComponentExampleComponent } from './experimental/search/component-example';
-import { SamSidebarComponentExampleComponent } from './experimental/sidebar/component-example';
 import { SamSideNavigationToolbarComponentExampleComponent } from './experimental/sideNavigationToolbar/component-example';
+import { SamSidebarComponentExampleComponent } from './experimental/sidebar/component-example';
 import { SamTabsNextComponentExampleComponent } from './experimental/tabs/component-example';
 import { SamTitleComponentExampleComponent } from './experimental/title/component-example';
 import { SamVideoPlayerComponentExampleComponent } from './experimental/video-player/component-example';
@@ -156,6 +157,7 @@ import { HierarchicalDataService } from './services/hierarchical.service';
     SamHierarchicalTreeGridComponentExampleComponent,
     SamIconComponentExampleComponent,
     SamInputMaskComponentExampleComponent,
+    SamIpValidatorComponentExampleComponent,
     SamLabelNextComponentExampleComponent,
     SamListComponentExampleComponent,
     SamListboxComponentExampleComponent,
@@ -164,8 +166,8 @@ import { HierarchicalDataService } from './services/hierarchical.service';
     ProgressComponentExampleComponent,
     SamResourcesWrapperComponentExampleComponent,
     SamSearchComponentExampleComponent,
-    SamSidebarComponentExampleComponent,
     SamSideNavigationToolbarComponentExampleComponent,
+    SamSidebarComponentExampleComponent,
     SamTabsNextComponentExampleComponent,
     SamTitleComponentExampleComponent,
     SamVideoPlayerComponentExampleComponent,
@@ -246,6 +248,7 @@ import { HierarchicalDataService } from './services/hierarchical.service';
     SamHierarchicalTreeGridComponentExampleComponent,
     SamIconComponentExampleComponent,
     SamInputMaskComponentExampleComponent,
+    SamIpValidatorComponentExampleComponent,
     SamLabelNextComponentExampleComponent,
     SamListComponentExampleComponent,
     SamListboxComponentExampleComponent,
@@ -254,8 +257,8 @@ import { HierarchicalDataService } from './services/hierarchical.service';
     ProgressComponentExampleComponent,
     SamResourcesWrapperComponentExampleComponent,
     SamSearchComponentExampleComponent,
-    SamSidebarComponentExampleComponent,
     SamSideNavigationToolbarComponentExampleComponent,
+    SamSidebarComponentExampleComponent,
     SamTabsNextComponentExampleComponent,
     SamTitleComponentExampleComponent,
     SamVideoPlayerComponentExampleComponent,
