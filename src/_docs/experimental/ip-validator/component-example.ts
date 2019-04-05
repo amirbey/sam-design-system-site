@@ -9,6 +9,6 @@ import {
   templateUrl: './component-example.html'
 })
 export class SamIpValidatorComponentExampleComponent {
-  
+  ipAddress = "256.255.255.255";
 }
 
